@@ -12,6 +12,8 @@
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "react-router-dom": "^6.8.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.4",
     "web-vitals": "^2.1.4"
@@ -20,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "mocks": "stubby -w -s 8887 -t 7447 -a 8892 -d mocks/mock_api.yml",
+    "start:mocks": "cross-env REACT_APP_API_URL=http://localhost:8887 concurrently --kill-others \"npm run mocks\" \"npm start\""
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +45,8 @@
     ]
   },
   "devDependencies": {
+    "concurrently": "^7.6.0",
+    "cross-env": "^7.0.3",
     "tailwindcss": "^3.2.4"
   }
 }
