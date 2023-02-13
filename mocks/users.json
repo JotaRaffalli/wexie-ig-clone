@@ -5,14 +5,45 @@
       "name": "Ibai",
       "lastName": "Llanos",
       "username": "ibai",
-      "likedPictures": []
+      "likedPictures": [],
+      "following": [""],
+      "followers": [""]
     },
     {
       "id": "f00a6636-1725-478d-9b9e-04ee0666a8f3",
       "name": "Jota",
       "lastName": "Raffalli",
       "username": "Jotalr",
-      "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"]
+      "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"],
+      "following": [""],
+      "followers": [""]
+    },
+    {
+      "id": "f00a6636-1725-478d-9b9e-04ee0666a8f4",
+      "name": "Juan",
+      "lastName": "Di Cecco",
+      "username": "juanchiponchi",
+      "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"],
+      "following": [""],
+      "followers": [""]
+    },
+    {
+      "id": "f00a6636-1725-478d-9b9e-04ee0666a8f5",
+      "name": "Rocco",
+      "lastName": "Locco",
+      "username": "roccolocco",
+      "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"],
+      "following": [""],
+      "followers": [""]
+    },
+    {
+      "id": "f00a6636-1725-478d-9b9e-04ee0666a8f6",
+      "name": "Paula",
+      "lastName": "De Raffalli",
+      "username": "pauraffalli5",
+      "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"],
+      "following": [""],
+      "followers": [""]
     }
   ]
 }
