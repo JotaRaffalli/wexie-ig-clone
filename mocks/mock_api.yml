@@ -19,6 +19,16 @@
       file: "me.json"
 
 - request:
+    url: /user/suggestions
+    method: GET
+  response:
+    - status: 200
+      latency: 1000
+      headers:
+        content-type: application/json
+      file: "user_suggestions.json"
+
+- request:
     url: ^/users$
     method: GET
   response:

@@ -4,6 +4,8 @@
     "name": "Jota",
     "lastName": "Raffalli",
     "username": "Jotalr",
-    "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"]
+    "likedPictures": ["2a4b305e-a03f-11ed-a8fc-0242ac120002"],
+    "following": [""],
+    "followers": [""]
   }
 }
