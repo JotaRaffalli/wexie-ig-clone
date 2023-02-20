@@ -11,7 +11,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/profile" element={<Profile />}></Route>
+          <Route path="/:username" element={<Profile />}></Route>
         </Routes>
       </Router>
       <ReactQueryDevtools />

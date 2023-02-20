@@ -18,6 +18,7 @@ export interface IProfileData {
   name: string;
   lastName: string;
   username: string;
+  profilePicture: string;
   likedPictures: string[];
   following: string[];
   followers: string[];
@@ -26,6 +27,7 @@ export interface IProfileData {
 export interface ISuggestions {
   id: string;
   username: string;
+  profilePicture: string;
 }
 
 class ApiService {
@@ -47,6 +49,14 @@ class ApiService {
   static async fetchSuggestions(following: string[], userId: string) : Promise<ApiResponse<ISuggestions[]>>  {
     const params = new URLSearchParams({following: following.join(","), userId: userId});
     const url = `${API_URL}/user/suggestions`+params;
+    const result = await fetch(url);
+    const resultJson = await result.json();
+    return resultJson;
+  };
+
+  static async fetchProfile(username: string) : Promise<ApiResponse<IProfileData>>  {
+    const params = new URLSearchParams({username});
+    const url = `${API_URL}/profile/`+params;
     const result = await fetch(url);
     const resultJson = await result.json();
     return resultJson;

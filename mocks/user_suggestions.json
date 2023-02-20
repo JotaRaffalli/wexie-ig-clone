@@ -2,15 +2,18 @@
   "data": [
     {
       "id": "f00a6636-1725-478d-9b9e-04ee0666a8f4",
-      "username": "juanchiponchi"
+      "username": "juanchiponchi",
+      "profilePicture": "https://dam.ngenespanol.com/wp-content/uploads/2021/03/quokka.jpg"
     },
     {
       "id": "f00a6636-1725-478d-9b9e-04ee0666a8f5",
-      "username": "roccolocco"
+      "username": "roccolocco",
+      "profilePicture": "https://www.tumascota.life/wp-content/uploads/2022/08/1-1.jpg"
     },
     {
       "id": "f00a6636-1725-478d-9b9e-04ee0666a8f6",
-      "username": "pauraffalli5"
+      "username": "pauraffalli5",
+      "profilePicture": "https://i.pinimg.com/736x/6a/3d/05/6a3d055ccff2cc08aa99e48a95b0b9f9.jpg"
     }
   ]
 }

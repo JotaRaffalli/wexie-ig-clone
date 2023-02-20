@@ -5,7 +5,7 @@ import ApiService from "../../services/api.service";
 import Me from "../Me";
 import Suggestions from "../Suggestions";
 
-function Sidebar() {
+const Sidebar:React.FC<React.HTMLAttributes<HTMLDivElement>> = () => {
   const {
     isLoading: isProfileLoading,
     error: profileError,
@@ -23,7 +23,7 @@ function Sidebar() {
       {isProfileLoading || !profileResponse ? (<Skeleton width={100} height={100} count={1} className="mb-4" />) 
       : <Me {...profileResponse.data} />}
 
-    {isSuggestionsLoading || !suggestionsResponse ? (<Skeleton width={100} height={100} count={3} className="mb-4" />) 
+      {isSuggestionsLoading || !suggestionsResponse ? (<Skeleton width={100} height={100} count={3} className="mb-4" />) 
       : <Suggestions data={suggestionsResponse.data} />}
     </div>
   );
