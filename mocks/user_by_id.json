@@ -1,9 +1,12 @@
 {
   "data": {
-    "id": "bd715eb3-d40f-445f-a2aa-2ef40a26cefb",
-    "name": "Ibai",
-    "lastName": "Llanos",
-    "username": "ibai",
-    "likedPictures": []
+    "id": "f00a6636-1725-478d-9b9e-04ee0666a8f3",
+    "name": "Jota",
+    "lastName": "Raffalli",
+    "username": "jotalr",
+    "profilePicture": "https://images.unsplash.com/photo-1676985086410-243e288378a3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    "likedPictures": [],
+    "following": ["ibai", "juanchiponchi", "roccolocco"],
+    "followers": ["ibai", "juanchiponchi", "roccolocco", "pauraffalli5"]
   }
 }
